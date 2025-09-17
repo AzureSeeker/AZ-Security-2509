@@ -1,4 +1,4 @@
-# AZ-500: Microsoft Azure Security Technologies
+# Labs : Microsoft Azure Security
 
 - **[Link to labs (HTML format)](https://microsoftlearning.github.io/AZ500-AzureSecurityTechnologies/)**
 

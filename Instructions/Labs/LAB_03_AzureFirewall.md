@@ -7,6 +7,13 @@ lab:
 # Lab 03: Azure Firewall
 # Student lab manual
 
+> **Region 규칙**
+> - 이 랩은 **East US** 또는 **Korea Central** 중 **하나**를 선택해 진행합니다.
+> - **한 학생/한 랩 내에서는 모든 리소스를 같은 지역**으로 만드세요(혼용 금지).
+> - 포털 표기 예: *Region: East US or Korea Central* (둘 중 택1)
+> - CLI/자동화 시 지역 코드는 **eastus** / **koreacentral** 입니다.
+> - 쿼터 문제로 생성이 막히면 동일 랩을 **다른 한 지역**으로 일괄 변경하세요.
+
 ## Lab scenario
 
 You have been asked to install Azure Firewall. This will help your organization control inbound and outbound network access which is an important part of an overall network security plan. Specifically, you would like to create and test the following infrastructure components:

@@ -157,7 +157,7 @@ In this task, you will create the Junior Admins group and add the user account o
 1. In the same PowerShell session within the Cloud Shell pane, run the following to **create a new security group** named Junior Admins:
    
    ```powershell
-   New-AzureADGroup -DisplayName 'Junior Admins43846135XX' -MailEnabled $false -SecurityEnabled $true -MailNickName JuniorAdmins XX
+   New-AzureADGroup -DisplayName 'Junior Admins43846135XX' -MailEnabled $false -SecurityEnabled $true -MailNickName JuniorAdminsXX
    ```
    
 2. In the PowerShell session within the Cloud Shell pane, run the following to **list groups** in your Microsoft Entra tenant (the list should include the Senior Admins and Junior Admins groups)

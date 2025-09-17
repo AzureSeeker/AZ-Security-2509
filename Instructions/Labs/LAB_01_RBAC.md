@@ -281,7 +281,7 @@ In this exercise, you will complete the following tasks:
    |Setting|Value|
    |---|---|
    |Subscription name|the name of your Azure subscription|
-   |Resource group name|**AZ500Lab01**|
+   |Resource group name|**AzSecLab01-XX**|
    |Location|**East US**|
 
 3. Click **Review + create** and then **Create**.
@@ -293,11 +293,11 @@ In this exercise, you will complete the following tasks:
 
 #### Task 2: Assign the Service Desk Virtual Machine Contributor permissions. 
 
-1. On the **Resource groups** blade, click the **AZ500LAB01** resource group entry.
+1. On the **Resource groups** blade, click the **AzSecLab01-XX** resource group entry.
 
-2. On the **AZ500Lab01** blade, click **Access control (IAM)** in the middle pane.
+2. On the **AzSecLab01-XX** blade, click **Access control (IAM)** in the middle pane.
 
-3. On the **AZ500Lab01 \| Access control (IAM)** blade, click **+ Add** and then, in the drop-down menu, click **Add role assignment**.
+3. On the **AzSecLab01-XX \| Access control (IAM)** blade, click **+ Add** and then, in the drop-down menu, click **Add role assignment**.
 
 4. On the **Add role assignment** blade, complete each of the following settings before clicking Next:
 
@@ -313,11 +313,11 @@ In this exercise, you will complete the following tasks:
 
 7. From the **Access control (IAM)** blade, select **Role assignments**.
 
-8. On the **AZ500Lab01 \| Access control (IAM)** blade, on the **Check access** tab, in the **Search by name or email address** text box, type **Dylan Williams XX**.
+8. On the **AzSecLab01-XX \| Access control (IAM)** blade, on the **Check access** tab, in the **Search by name or email address** text box, type **Dylan Williams XX**.
 
-9. In the list of search results, select the user account of Dylan Williams XX and, on the **Dylan Williams XX assignments - AZ500Lab01** blade, view the newly created assignment.
+9. In the list of search results, select the user account of Dylan Williams XX and, on the **Dylan Williams XX assignments - AzSecLab01-XX** blade, view the newly created assignment.
 
-10. Close the **Dylan Williams XX assignments - AZ500Lab01** blade.
+10. Close the **Dylan Williams XX assignments - AzSecLab01-XX** blade.
 
 11. Repeat the same last two steps to check access for **Joseph Price**. 
 
@@ -334,7 +334,7 @@ In this exercise, you will complete the following tasks:
 3. In the PowerShell session within the Cloud Shell pane, run the following to remove the resource group you created in this lab:
   
     ```
-    Remove-AzResourceGroup -Name "AZ500LAB01" -Force -AsJob
+    Remove-AzResourceGroup -Name "AzSecLab01-XX" -Force -AsJob
     ```
 
 4.  Close the **Cloud Shell** pane. 

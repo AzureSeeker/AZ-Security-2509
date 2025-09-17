@@ -14,6 +14,10 @@ lab:
 > - CLI/자동화 시 지역 코드는 **eastus** / **koreacentral** 입니다.
 > - 쿼터 문제로 생성이 막히면 동일 랩을 **다른 한 지역**으로 일괄 변경하세요.
 
+> **XX 에 대하여**
+> - **XX**는 다른 수강생과 이름이 겹치지 않도록 개인별로 제공 받은 번호를 입력합니다.
+
+
 ## Lab scenario
 
 You have been asked to implement your organization's virtual networking infrastructure and test to ensure it is working correctly. In particular:

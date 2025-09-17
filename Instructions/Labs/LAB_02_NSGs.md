@@ -62,7 +62,7 @@ In this task, you will create a virtual network to use with the network and appl
     |Setting|Value|
     |---|---|
     |Subscription | Name of the Azure subscription you are using in this lab |
-    |Resource group | Use the provided Resource Group named **AZ500LAB07** |
+    |Resource group | Use the provided Resource Group named **AzSecLab02-XX** |
     |Name| +++myVirtualNetwork+++ |
     |Region| **East US** |
 
@@ -89,7 +89,7 @@ In this task, you will create an application security group.
 
     |Setting|Value|
     |---|---|
-    | Resource group | **AZ500LAB07** |
+    | Resource group | **AzSecLab02-XX** |
     | Name | +++myAsgWebServers+++ |
     | Region | **East US** |
 
@@ -103,7 +103,7 @@ In this task, you will create an application security group.
 
     |Setting|Value|
     |---|---|
-    |Resource group|**AZ500LAB07**|
+    |Resource group|**AzSecLab02-XX**|
     |Name| +++myAsgMgmtServers+++ |
     |Region|**East US**|
 
@@ -124,7 +124,7 @@ In this task, you will create a network security group.
     |Setting|Value|
     |---|---|
     | Subscription | Name of the Azure subscription you are using in this lab |
-    | Resource group | **AZ500LAB07** |
+    | Resource group | **AzSecLab02-XX** |
     | Name | +++myNsg+++ |
     | Region | **East US** |
 
@@ -207,7 +207,7 @@ In this task, you will create a virtual machine to use as a web server.
    |Setting|Value|
    |---|---|
    |Subscription|the name of the Azure subscription you will be using in this lab|
-   |Resource group|**AZ500LAB07**|
+   |Resource group|**AzSecLab02-XX**|
    |Virtual machine name|**myVmWeb**|
    |Region|**(US)East US**|
    |Availability options|**No infrastructure redundancy required**
@@ -247,7 +247,7 @@ In this task, you will create a virtual machine to use as a management server.
    |Setting|Value|
    |---|---|
    |Subscription|the name of the Azure subscription you will be using in this lab|
-   |Resource group|**AZ500LAB07**|
+   |Resource group|**AzSecLab02-XX**|
    |Virtual machine name|**myVMMgmt**|
    |Region|(US)East US|
    |Availability options|**No infrastructure redundancy required**
@@ -345,7 +345,7 @@ In this task, you will test the network traffic filters. You should be able to R
 3. In the PowerShell session within the Cloud Shell pane, run the following to remove the resource group you created in this lab:
   
     ```powershell
-    Remove-AzResourceGroup -Name "AZ500LAB07" -Force -AsJob
+    Remove-AzResourceGroup -Name "AzSecLab02-XX" -Force -AsJob
     ```
 
 4.  Close the **Cloud Shell** pane. 

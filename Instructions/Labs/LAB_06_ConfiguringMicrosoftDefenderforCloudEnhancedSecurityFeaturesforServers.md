@@ -1,10 +1,10 @@
 ---
 lab:
-    title: '09 - Configuring Microsoft Defender for Cloud Enhanced Security Features for Servers'
+    title: '06 - Configuring Microsoft Defender for Cloud Enhanced Security Features for Servers'
     module: 'Module 03 - Configure and manage threat protection by using Microsoft Defender for Cloud'
 ---
 
-# Lab 09: Configuring Microsoft Defender for Cloud Enhanced Security Features for Servers
+# Lab 06: Configuring Microsoft Defender for Cloud Enhanced Security Features for Servers
 
 # Student lab manual
 

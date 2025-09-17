@@ -1,10 +1,10 @@
 ---
 lab:
-    title: '11 - Microsoft Sentinel'
+    title: '08 - Microsoft Sentinel'
     module: 'Module 04 - Configure and manage security monitoring and automation solutions'
 ---
 
-# Lab 11: Microsoft Sentinel
+# Lab 08: Microsoft Sentinel
 # Student lab manual
 
 ## Lab scenario

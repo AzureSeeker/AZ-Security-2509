@@ -62,7 +62,7 @@ In this task, you will create a virtual network to use with the network and appl
     |Setting|Value|
     |---|---|
     |Subscription | Name of the Azure subscription you are using in this lab |
-    |Resource group | Use the provided Resource Group named **AzSecLab02-XX** |
+    |Resource group | Resource Group named **AzSecLab02-XX** |
     |Name| +++myVirtualNetwork+++ |
     |Region| **East US** |
 

@@ -17,7 +17,7 @@ You have been asked to implement your organization's virtual networking infrastr
 - The Web Servers should display the IIS web page when accessed from the internet. 
 - Network security group rules should be used to control network access. 
 
-> For all the resources in this lab, we are using the **East US** region. Verify with your instructor this is the region to use for class. 
+> For all the resources in this lab, we are using the **East US** or **Korea Central** region. Verify with your instructor this is the region to use for class. 
 
 ## Lab objectives
 
@@ -53,7 +53,7 @@ In this task, you will create a virtual network to use with the network and appl
 
     >**Note**: Sign in to the Azure portal using an account that has the Owner or Contributor role in the Azure subscription you are using for this lab.
 
-2. In the Azure portal, in the **Search resources, services, and docs** text box at the top of the Azure portal page, type +++Virtual networks+++ and press the **Enter** key.
+2. In the Azure portal, in the **Search resources, services, and docs** text box at the top of the Azure portal page, type **Virtual networks** and press the **Enter** key.
 
 3. On the **Virtual networks** blade, click **+ Create**.
 
@@ -63,8 +63,8 @@ In this task, you will create a virtual network to use with the network and appl
     |---|---|
     |Subscription | Name of the Azure subscription you are using in this lab |
     |Resource group | Resource Group named **AzSecLab02-XX** |
-    |Name| +++myVirtualNetwork+++ |
-    |Region| **East US** |
+    |Name| **myVirtualNetwork** |
+    |Region| **East US** or **Korea Central** |
 
 5. On the **IP addresses** tab of the **Create virtual network** blade, set the **IPv4 address space** to **10.0.0.0/16**, and, if needed, in the **Subnet name** column, click **default**, on the **Edit subnet** blade, specify the following settings and click **Save**:
 
@@ -81,7 +81,7 @@ In this task, you will create a virtual network to use with the network and appl
 
 In this task, you will create an application security group.
 
-1. In the Azure portal, in the **Search resources, services, and docs** text box at the top of the Azure portal page, type +++Application security groups+++ and press the **Enter** key.
+1. In the Azure portal, in the **Search resources, services, and docs** text box at the top of the Azure portal page, type **Application security groups** and press the **Enter** key.
 
 2. On the **Application security groups** blade, click **+ Create**.
 
@@ -90,8 +90,8 @@ In this task, you will create an application security group.
     |Setting|Value|
     |---|---|
     | Resource group | **AzSecLab02-XX** |
-    | Name | +++myAsgWebServers+++ |
-    | Region | **East US** |
+    | Name | **myAsgWebServers** |
+    | Region | **East US** or **Korea Central** |
 
     >**Note**: This group will be for the web servers.
 
@@ -104,8 +104,8 @@ In this task, you will create an application security group.
     |Setting|Value|
     |---|---|
     |Resource group|**AzSecLab02-XX**|
-    |Name| +++myAsgMgmtServers+++ |
-    |Region|**East US**|
+    |Name| **myAsgMgmtServers** |
+    |Region|**East US** or **Korea Central**|
 
     >**Note**: This group will be for the management servers.
 
@@ -115,7 +115,7 @@ In this task, you will create an application security group.
 
 In this task, you will create a network security group. 
 
-1. In the Azure portal, in the **Search resources, services, and docs** text box at the top of the Azure portal page, type +++Network security groups+++ and press the **Enter** key.
+1. In the Azure portal, in the **Search resources, services, and docs** text box at the top of the Azure portal page, type **Network security groups** and press the **Enter** key.
 
 2. On the **Network security groups** blade, click **+ Create**.
 
@@ -125,8 +125,8 @@ In this task, you will create a network security group.
     |---|---|
     | Subscription | Name of the Azure subscription you are using in this lab |
     | Resource group | **AzSecLab02-XX** |
-    | Name | +++myNsg+++ |
-    | Region | **East US** |
+    | Name | **myNsg** |
+    | Region | **East US** or **Korea Central** |
 
 4. Click **Review + create** and then click **Create**.
 
@@ -198,7 +198,7 @@ In this exercise, you will complete the following tasks:
 
 In this task, you will create a virtual machine to use as a web server.
 
-1. In the Azure portal, in the **Search resources, services, and docs** text box at the top of the Azure portal page, type +++Virtual machines+++ and press the **Enter** key.
+1. In the Azure portal, in the **Search resources, services, and docs** text box at the top of the Azure portal page, type **Virtual machines** and press the **Enter** key.
 
 2. On the **Virtual machines** blade, click **+ Create** and, in the dropdown list, click **+ Azure virtual machine**.
 

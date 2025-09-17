@@ -147,7 +147,7 @@ In this task, you will create a user account for Isabel Garcia XX by using Power
 9. In the PowerShell session within the Cloud Shell pane, run the following to list Microsoft Entra ID users (the accounts of Joseph and Isabel should appear on the listed): 
 
     ```powershell
-    Get-AzureADUser -All $true | Where-Object {$_.UserPrincipalName -like "*43846135XX@LOD*"} 
+    Get-AzureADUser -All $true | Where-Object {$_.UserPrincipalName -like "*@eduntechedugmail.onmicrosoft.com"} 
     ```
 
 #### Task2: Use PowerShell to create the Junior Admins group and add the user account of Isabel Garcia XX to the group.
@@ -157,7 +157,7 @@ In this task, you will create the Junior Admins group and add the user account o
 1. In the same PowerShell session within the Cloud Shell pane, run the following to **create a new security group** named Junior Admins:
    
    ```powershell
-   New-AzureADGroup -DisplayName 'Junior Admins43846135XX' -MailEnabled $false -SecurityEnabled $true -MailNickName JuniorAdminsXX
+   New-AzureADGroup -DisplayName 'Junior Admins XX' -MailEnabled $false -SecurityEnabled $true -MailNickName JuniorAdminsXX
    ```
    
 2. In the PowerShell session within the Cloud Shell pane, run the following to **list groups** in your Microsoft Entra tenant (the list should include the Senior Admins and Junior Admins groups)
@@ -169,18 +169,19 @@ In this task, you will create the Junior Admins group and add the user account o
 3. In the PowerShell session within the Cloud Shell pane, run the following to **obtain a reference** to the user account of Isabel Garcia XX:
 
    ```powershell
-   $user = Get-AzureADUser -Filter "UserPrincipalName eq 'Isabel-43846135XX@eduntechedugmail.onmicrosoft.com'"
+   $user = Get-AzureADUser -Filter "UserPrincipalName eq 'IsabelXX@$domainName'"
+
    ```
 
-4. In the PowerShell session within the Cloud Shell pane, run the following to add the user account of Isabel to the Junior Admins43846135XX group:
+4. In the PowerShell session within the Cloud Shell pane, run the following to add the user account of Isabel to the Junior Admins XX group:
    ```powershell
-   Add-AzADGroupMember -MemberUserPrincipalName $user.userPrincipalName -TargetGroupDisplayName "Junior Admins43846135XX"
+   Add-AzADGroupMember -MemberUserPrincipalName $user.userPrincipalName -TargetGroupDisplayName "Junior Admins XX"
    ```
 
-5. In the PowerShell session within the Cloud Shell pane, run the following to verify that the Junior Admins43846135XX group contains the user account of Isabel:
+5. In the PowerShell session within the Cloud Shell pane, run the following to verify that the Junior Admins XX group contains the user account of Isabel:
    
    ```powershell
-    Get-AzADGroupMember -GroupDisplayName "Junior Admins43846135XX"
+    Get-AzADGroupMember -GroupDisplayName "Junior Admins XX"
     ```
    
 > Result: You used PowerShell to create a user and a group account, and added the user account to the group account. 
@@ -282,7 +283,7 @@ In this exercise, you will complete the following tasks:
    |---|---|
    |Subscription name|the name of your Azure subscription|
    |Resource group name|**AzSecLab01-XX**|
-   |Location|**East US**|
+   |Location|**East US** or **Korea Central**|
 
 3. Click **Review + create** and then **Create**.
 

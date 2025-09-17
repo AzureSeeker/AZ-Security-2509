@@ -43,7 +43,7 @@ In this lab, you will complete the following exercises:
 
 ### Estimated timing: 20 minutes
 
-> For all the resources in this lab, we are using the **East (US)** region. Verify with your instructor this is region to use for you class. 
+> For all the resources in this lab, we are using the **East US** or **Korea Central** region. Verify with your instructor this is region to use for you class. 
 
 In this exercise, you will complete the following tasks:
 
@@ -215,7 +215,7 @@ In this task, you will create a virtual machine to use as a web server.
    |---|---|
    |Subscription|the name of the Azure subscription you will be using in this lab|
    |Resource group|**AzSecLab02-XX**|
-   |Virtual machine name|**myVmWebXX**|
+   |Virtual machine name|**myVMWebXX**|
    |Region|**(US)East US** or **Korea Central**|
    |Availability options|**No infrastructure redundancy required**
    |Security type|**Standard**
@@ -323,7 +323,7 @@ In this task, you will test the network traffic filters. You should be able to R
 
 5. On the **myVMWebXX** blade, in the **Operations** section, click **Run command** and then click **RunPowerShellScript**.
 
-6. On the **Run Command Script** pane, run the following to install the Web server role on **myVmWebXX**:
+6. On the **Run Command Script** pane, run the following to install the Web server role on **myVMWebXX**:
 
     ```powershell
     Install-WindowsFeature -name Web-Server -IncludeManagementTools
@@ -333,7 +333,7 @@ In this task, you will test the network traffic filters. You should be able to R
 
 7. In the Azure portal, navigate back to the **myVMWebXX** blade.
 
-8. On the **myVMWebXX** blade, identify the **Public IP address** of the myVmWebXX Azure VM.
+8. On the **myVMWebXX** blade, identify the **Public IP address** of the myVMWebXX Azure VM.
 
 9. Open another browser tab and navigate to IP address you identified in the previous step.
 

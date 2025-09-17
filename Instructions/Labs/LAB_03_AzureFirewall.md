@@ -40,7 +40,7 @@ In this lab, you will complete the following exercise:
 
 ## Lab files:
 
-- **\\Allfiles\\Labs\\08\\template.json**
+- **\\Allfiles\\Labs\\03\\template.json**
 
 ### Exercise 1: Deploy and test an Azure Firewall
 
@@ -72,7 +72,7 @@ In this task, you will create a virtual machine by using an ARM template. This v
 
 3. On the **Custom deployment** blade, click the **Build your own template in the editor** option.
 
-4. On the **Edit template** blade, click **Load file**, locate the **\\Allfiles\\Labs\\08\\template.json** file and click **Open**.
+4. On the **Edit template** blade, click **Load file**, locate the **\\Allfiles\\Labs\\03\\template.json** file and click **Open**.
 
     >**Note**: Review the content of the template and note that it deploys an Azure VM hosting Windows Server 2016 Datacenter.
 

@@ -12,7 +12,7 @@ lab:
 
 You have been asked to create a proof of concept showing how Azure users and groups are created. Also, how role-based access control is used to assign roles to groups. Specifically, you need to:
 
-- Create a Senior Admins group containing the user account of Joseph Price as its member.
+- Create a Senior Admins group containing the user account of Joseph Price XX as its member.
 - Create a Junior Admins group containing the user account of Isabel Garcia XX as its member.
 - Create a Service Desk group containing the user account of Dylan Williams XX as its member.
 - Assign the Virtual Machine Contributor role to the Service Desk group. 
@@ -23,7 +23,7 @@ You have been asked to create a proof of concept showing how Azure users and gro
 
 In this lab, you will complete the following exercises:
 
-- Exercise 1: Create the Senior Admins group with the user account Joseph Price as its member (the Azure portal). 
+- Exercise 1: Create the Senior Admins group with the user account Joseph Price XX as its member (the Azure portal). 
 - Exercise 2: Create the Junior Admins group with the user account Isabel Garcia XX as its member (PowerShell).
 - Exercise 3: Create the Service Desk group with the user Dylan Williams XX as its member (Azure CLI). 
 - Exercise 4: Assign the Virtual Machine Contributor role to the Service Desk group.
@@ -34,14 +34,14 @@ In this lab, you will complete the following exercises:
 
 ## Instructions
 
-### Exercise 1: Create the Senior Admins group with the user account Joseph Price as its member. 
+### Exercise 1: Create the Senior Admins group with the user account Joseph Price XX as its member. 
 
 #### Estimated timing: 10 minutes
 
 In this exercise, you will complete the following tasks:
 
 - Task 1: Use the Azure portal to create a user account for Joseph Price XX.
-- Task 2: Use the Azure portal to create a Senior Admins group and add the user account of Joseph Price to the group.
+- Task 2: Use the Azure portal to create a Senior Admins group and add the user account of Joseph Price XX to the group.
 
 #### Task 1: Use the Azure portal to create a user account for Joseph Price XX
 
@@ -72,7 +72,7 @@ In this task, you will create a user account for Joseph Price XX.
 
 #### Task2: Use the Azure portal to create a Senior Admins group and add the user account of Joseph Price XX to the group.
 
-In this task, you will create the *Senior Admins* group, add the user account of Joseph Price to the group, and configure it as the group owner.
+In this task, you will create the *Senior Admins* group, add the user account of Joseph Price XX to the group, and configure it as the group owner.
 
 1. In the Azure portal, navigate back to the blade displaying your Microsoft Entra ID tenant. 
 
@@ -320,7 +320,7 @@ In this exercise, you will complete the following tasks:
 
 10. Close the **Dylan Williams XX assignments - AzSecLab01-XX** blade.
 
-11. Repeat the same last two steps to check access for **Joseph Price**. 
+11. Repeat the same last two steps to check access for **Joseph Price XX**. 
 
 > Result: You have assigned and checked RBAC permissions. 
 

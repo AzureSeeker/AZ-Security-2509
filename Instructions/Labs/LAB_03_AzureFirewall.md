@@ -336,3 +336,27 @@ In this task, you will test the firewall to confirm that it works as expected.
     Remove-AzResourceGroup -Name "AzSecLab03-XX" -Force -AsJob
     ```
 4. Close the **Cloud Shell** pane. 
+
+
+=======================
+ETC
+
+
+# 변수
+rg="AzSecLab03-XX"
+vnet="Test-FW-VN-XX"
+subnet="Workload-SN-XX"
+rt="Firewall-route-XX"
+
+# 라우트 테이블 ID 확보
+rtid=$(az network route-table show -g "$rg" -n "$rt" --query id -o tsv)
+
+# 서브넷에 라우트 테이블 연결
+az network vnet subnet update \
+  -g "$rg" --vnet-name "$vnet" -n "$subnet" \
+  --route-table "$rtid"
+
+# 확인
+az network vnet subnet show \
+  -g "$rg" --vnet-name "$vnet" -n "$subnet" \
+  --query "routeTable.id" -o tsv

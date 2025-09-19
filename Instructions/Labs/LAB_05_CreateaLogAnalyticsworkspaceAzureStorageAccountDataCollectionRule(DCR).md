@@ -45,7 +45,7 @@ In this exercise, you will complete the following tasks:
 
 4. In the **Getting started** window, leave the default setting as is: **Select a subscription to get started. You can optionally mount a storage account to persist files between sessions. No storage account required.**
 
-5. From the **Subscription** drop-down menu, select your **lodsubscription.**
+5. From the **Subscription** drop-down menu, select your **subscription.**
 
 6. Leave **Use an existing private virtual network** unchecked, then click **Apply.**
 

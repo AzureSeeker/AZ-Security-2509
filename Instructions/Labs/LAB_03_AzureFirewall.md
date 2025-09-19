@@ -28,7 +28,7 @@ You have been asked to install Azure Firewall. This will help your organization 
 - Firewall Application rules that only allow outbound traffic to www.bing.com. 
 - Firewall Network rules that allow external DNS server lookups.
 
-> For all the resources in this lab, we are using the **East US** or **Korea Central** region. Verify with your instructor this is the region to use for class. 
+> For all the resources in this lab, we are using the **East US** region. Verify with your instructor this is the region to use for class. 
 
 ## Lab objectives
 
@@ -88,7 +88,7 @@ In this task, you will create a virtual machine by using an ARM template. This v
    |---|---|
    |Subscription|the name of the Azure subscription you will be using in this lab|
    |Resource group|click **Create new** and type the name **AzSecLab03-XX**|
-   |Location|**(US) East US** or **Korea Central**|
+   |Location|**(US) East US**|
    |adminPassword|A secure password of your own choosing for the virtual machines. Remember the password. You will need it later to connect to the VMs.|
 
     >**Note**: To identify Azure regions where you can provision Azure VMs, refer to [**https://azure.microsoft.com/en-us/regions/offers/**](https://azure.microsoft.com/en-us/regions/offers/)
@@ -111,7 +111,7 @@ In this task you will deploy the Azure firewall into the virtual network.
    |---|---|
    |Resource group|**AzSecLab03-XX**|
    |Name|**Test-FW01-XX**|
-   |Region|**(US) East US** or **Korea Central**|
+   |Region|**(US) East US**|
    |Firewall SKU|**Standard**|
    |Firewall management|**Use Firewall rules (classic) to manage this firewall**|
    |Choose a virtual network|click the **Use existing** option and, in the drop-down list, select **Test-FW-VN-XX**|
@@ -148,7 +148,7 @@ In this task, you will create a default route for the **Workload-SN-XX** subnet.
    |Setting|Value|
    |---|---|
    |Resource group|**AzSecLab03-XX**|
-   |Region| **East US ** or **Korea Central**|
+   |Region| **East US **|
    |Name|**Firewall-route-XX**|
 
 4. Click **Review + create**, then click **Create**, and wait for the provisioning to complete. 

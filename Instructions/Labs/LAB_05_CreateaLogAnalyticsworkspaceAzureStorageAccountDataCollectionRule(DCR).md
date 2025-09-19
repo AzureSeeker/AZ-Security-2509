@@ -66,7 +66,7 @@ In this exercise, you will complete the following tasks:
 5. In the PowerShell session within the Cloud Shell pane, run the following to create a new Azure virtual machine. 
 
     ```powershell
-    New-AzVm -ResourceGroupName "AzSecLab05-XX" -Name "myVM" -Location 'EastUS' -VirtualNetworkName "myVnet" -SubnetName "mySubnet" -SecurityGroupName   "myNetworkSecurityGroup" -PublicIpAddressName "myPublicIpAddress" -PublicIpSku Standard -OpenPorts 80,3389 -Size Standard_D2s_v3 
+    New-AzVm -ResourceGroupName "AzSecLab05-XX" -Name "myVMXX" -Location 'EastUS' -VirtualNetworkName "myVnetXX" -SubnetName "mySubnet" -SecurityGroupName   "myNetworkSecurityGroupXX" -PublicIpAddressName "myPublicIpAddressXX" -PublicIpSku Standard -OpenPorts 80,3389 -Size Standard_D2s_v3 
     ```
     
 6.  When prompted for credentials:
@@ -78,10 +78,10 @@ In this exercise, you will complete the following tasks:
 
     >**Note**: Wait for the deployment to complete. 
 
-7. In the PowerShell session within the Cloud Shell pane, run the following to confirm that the virtual machine named **myVM** was created and its **ProvisioningState** is **Succeeded**.
+7. In the PowerShell session within the Cloud Shell pane, run the following to confirm that the virtual machine named **myVMXX** was created and its **ProvisioningState** is **Succeeded**.
 
     ```powershell
-    Get-AzVM -Name 'myVM' -ResourceGroupName 'AzSecLab05-XX' | Format-Table
+    Get-AzVM -Name 'myVMXX' -ResourceGroupName 'AzSecLab05-XX' | Format-Table
     ```
 
 8. Close the Cloud Shell pane. 
@@ -165,7 +165,7 @@ In this task, you will create a data collection rule.
     |Setting|Value|
     |---|---|
     **Rule details**
-    |Rule Name|**DCR1**|
+    |Rule Name|**DCR1XX**|
     |Subscription|the name of the Azure subscription you are using in this lab|
     |Resource Group|**AzSecLab05-XX**|
     |Region|**East US**|

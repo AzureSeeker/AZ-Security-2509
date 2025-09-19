@@ -28,9 +28,9 @@ In this lab, you will complete the following exercises:
 
 1. In the search box at the top of the portal, enter **virtual machines.** Select **Virtual machines** in the search results.
 
-2. Select **myVM.**
+2. Select **myVMXX.**
  
-3. Select **Configuration** from the **Settings** section of **myVM.**
+3. Select **Configuration** from the **Settings** section of **myVMXX.**
    
 4. Under **Just-in-time VM access,** select **Enable just-in-time.**
 

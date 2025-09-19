@@ -149,7 +149,7 @@ In this task, you will create a playbook. A security playbook is a collection of
     |Setting|Value|
     |---|---|
     |Subscription|the name of the Azure subscription you are using in this lab|
-    |Resource group|**AZ500LAB131415**|
+    |Resource group|**AzSecLab05-XX**|
     |Location|**(US) East US**|
     |Playbook Name|**Change-Incident-Severity**|
     |User Name|your email address|
@@ -160,9 +160,9 @@ In this task, you will create a playbook. A security playbook is a collection of
 
 7. In the Azure portal, in the **Search resources, services, and docs** text box at the top of the Azure portal page, type **Resource groups** and press the **Enter** key.
 
-8. On the **Resource groups** blade, in the list of resource group, click the **AZ500LAB131415** entry.
+8. On the **Resource groups** blade, in the list of resource group, click the **AzSecLab05-XX** entry.
 
-9. On the **AZ500LAB131415** resource group blade, in the list of resources, click the entry representing the newly created **Change-Incident-Severity** logic app.
+9. On the **AzSecLab05-XX** resource group blade, in the list of resources, click the entry representing the newly created **Change-Incident-Severity** logic app.
 
 10. On the **Change-Incident-Severity** blade, click **Edit**.
 
@@ -222,7 +222,7 @@ In this task, you will create a playbook. A security playbook is a collection of
 
 11. In the **Create new automation rule** window, enter **Run Change-Severity Playbook** for the **Automation rule name**; under the **Trigger** field, click the drop-down menu and select **When alert is created**.
 
-12. In the **Create new automation rule** window, under **Actions**, read the note and then click **Manage playbook permissions**. On the **Manage permissions** window, select the checkbox next to the previously created **Resource group AZ500LAB1314151** and then click **Apply**.
+12. In the **Create new automation rule** window, under **Actions**, read the note and then click **Manage playbook permissions**. On the **Manage permissions** window, select the checkbox next to the previously created **Resource group AzSecLab05-XX1** and then click **Apply**.
 
 13.  In the **Create new automation rule** window, under **Actions**, click the second drop-down menu and select the **Change-Incident-Severity** logic app. On the **Create new automation rule** window, click **Apply**.
 
@@ -279,6 +279,6 @@ In this task, you will create a playbook. A security playbook is a collection of
 3. In the PowerShell session within the Cloud Shell pane, run the following to remove the resource group you created in this lab:
   
     ```powershell
-    Remove-AzResourceGroup -Name "AZ500LAB131415" -Force -AsJob
+    Remove-AzResourceGroup -Name "AzSecLab05-XX" -Force -AsJob
     ```
 4. Close the **Cloud Shell** pane.

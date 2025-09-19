@@ -52,7 +52,7 @@ In this exercise, you will complete the following tasks:
 7. In the PowerShell session within the Cloud Shell pane, run the following to create a resource group that will be used in this lab:
   
     ```powershell
-    New-AzResourceGroup -Name AZ500LAB131415 -Location 'EastUS'
+    New-AzResourceGroup -Name AzSecLab05-XX -Location 'EastUS'
     ```
 
     >**Note**: This resource group will be used for labs 8, 9, and 10.
@@ -66,7 +66,7 @@ In this exercise, you will complete the following tasks:
 5. In the PowerShell session within the Cloud Shell pane, run the following to create a new Azure virtual machine. 
 
     ```powershell
-    New-AzVm -ResourceGroupName "AZ500LAB131415" -Name "myVM" -Location 'EastUS' -VirtualNetworkName "myVnet" -SubnetName "mySubnet" -SecurityGroupName   "myNetworkSecurityGroup" -PublicIpAddressName "myPublicIpAddress" -PublicIpSku Standard -OpenPorts 80,3389 -Size Standard_D2s_v3 
+    New-AzVm -ResourceGroupName "AzSecLab05-XX" -Name "myVM" -Location 'EastUS' -VirtualNetworkName "myVnet" -SubnetName "mySubnet" -SecurityGroupName   "myNetworkSecurityGroup" -PublicIpAddressName "myPublicIpAddress" -PublicIpSku Standard -OpenPorts 80,3389 -Size Standard_D2s_v3 
     ```
     
 6.  When prompted for credentials:
@@ -81,7 +81,7 @@ In this exercise, you will complete the following tasks:
 7. In the PowerShell session within the Cloud Shell pane, run the following to confirm that the virtual machine named **myVM** was created and its **ProvisioningState** is **Succeeded**.
 
     ```powershell
-    Get-AzVM -Name 'myVM' -ResourceGroupName 'AZ500LAB131415' | Format-Table
+    Get-AzVM -Name 'myVM' -ResourceGroupName 'AzSecLab05-XX' | Format-Table
     ```
 
 8. Close the Cloud Shell pane. 
@@ -105,7 +105,7 @@ In this task, you will create a Log Analytics workspace.
     |Setting|Value|
     |---|---|
     |Subscription|the name of the Azure subscription you are using in this lab|
-    |Resource group|**AZ500LAB131415**|
+    |Resource group|**AzSecLab05-XX**|
     |Name|any valid, globally unique name|
     |Region|**East US**|
 
@@ -132,7 +132,7 @@ In this task, you will create a storage account.
     |Setting|Value|
     |---|---|
     |Subscription|the name of the Azure subscription you are using in this lab|
-    |Resource group|**AZ500LAB131415**|
+    |Resource group|**AzSecLab05-XX**|
     **Instance details**
     |Storage account name|any globally unique name between 3 and 24 in length consisting of letters and digits|
     |Region|**(US) EastUS**|
@@ -167,7 +167,7 @@ In this task, you will create a data collection rule.
     **Rule details**
     |Rule Name|**DCR1**|
     |Subscription|the name of the Azure subscription you are using in this lab|
-    |Resource Group|**AZ500LAB131415**|
+    |Resource Group|**AzSecLab05-XX**|
     |Region|**East US**|
     |Platform Type|**Windows**|
     |Data Collection Endpoint|*Leave Blank*|
